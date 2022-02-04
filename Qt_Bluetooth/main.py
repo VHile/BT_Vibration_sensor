@@ -49,6 +49,16 @@ curve2 = ui.graph.plot(pen="g", name="Accel Y")
 curve3 = ui.graph.plot(pen="b", name="Accel Z")
 curve4 = ui.graph.plot()
 
+
+ui.graph_2.addLegend()
+ui.graph_2.showGrid(x=True, y=True, alpha=0.8)
+ui.graph_2.setLabel('left', 'Amplitude (16bit Signed)')
+
+curve5 = ui.graph_2.plot(pen="r", name="Accel X")
+curve6 = ui.graph_2.plot(pen="g", name="Accel Y")
+curve7 = ui.graph_2.plot(pen="b", name="Accel Z")
+curve8 = ui.graph_2.plot()
+
 #for i in range(len(listX)):
 #    listXYZ['X'].append(listX[i])
 #for i in range(len(listY)):
