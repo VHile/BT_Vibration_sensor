@@ -450,7 +450,7 @@
      <widget class="PlotWidget" name="graph" native="true"/>
     </item>
     <item>
-     <widget class="QWidget" name="graph_2" native="true"/>
+     <widget class="PlotWidget" name="graph_2" native="true"/>
     </item>
    </layout>
   </widget>
@@ -459,7 +459,7 @@
   <customwidget>
    <class>PlotWidget</class>
    <extends>QWidget</extends>
-   <header>pyqtgraph</header>
+   <header location="global">pyqtgraph</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

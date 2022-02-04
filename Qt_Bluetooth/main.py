@@ -50,7 +50,7 @@ curve3 = ui.graph.plot(pen="b", name="Accel Z")
 curve4 = ui.graph.plot()
 
 
-ui.graph_2.addLegend()
+ui.graph2.addLegend()
 ui.graph_2.showGrid(x=True, y=True, alpha=0.8)
 ui.graph_2.setLabel('left', 'Amplitude (16bit Signed)')
 
