@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>659</width>
-    <height>815</height>
+    <width>614</width>
+    <height>818</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,14 +16,14 @@
   <widget class="QWidget" name="verticalLayoutWidget_2">
    <property name="geometry">
     <rect>
-     <x>510</x>
-     <y>600</y>
-     <width>121</width>
-     <height>171</height>
+     <x>450</x>
+     <y>580</y>
+     <width>131</width>
+     <height>181</height>
     </rect>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout_2">
-    <item>
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
      <widget class="QPushButton" name="onB">
       <property name="font">
        <font>
@@ -36,7 +36,7 @@
       </property>
      </widget>
     </item>
-    <item>
+    <item row="1" column="0">
      <widget class="QPushButton" name="offB">
       <property name="font">
        <font>
@@ -55,13 +55,13 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>500</y>
-     <width>461</width>
+     <y>480</y>
+     <width>551</width>
      <height>71</height>
     </rect>
    </property>
-   <layout class="QHBoxLayout" name="horizontalLayout">
-    <item>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
      <widget class="QLabel" name="label_6">
       <property name="font">
        <font>
@@ -74,30 +74,7 @@
       </property>
      </widget>
     </item>
-    <item>
-     <widget class="QComboBox" name="comL">
-      <property name="font">
-       <font>
-        <family>Times New Roman</family>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="openB">
-      <property name="font">
-       <font>
-        <family>Swis721 BT</family>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>OPEN</string>
-      </property>
-     </widget>
-    </item>
-    <item>
+    <item row="1" column="3">
      <widget class="QPushButton" name="closeB">
       <property name="font">
        <font>
@@ -110,23 +87,36 @@
       </property>
      </widget>
     </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="comL">
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QPushButton" name="openB">
+      <property name="font">
+       <font>
+        <family>Swis721 BT</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>OPEN</string>
+      </property>
+     </widget>
+    </item>
    </layout>
-  </widget>
-  <widget class="PlotWidget" name="graph" native="true">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>90</y>
-     <width>621</width>
-     <height>381</height>
-    </rect>
-   </property>
   </widget>
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>0</y>
+     <x>90</x>
+     <y>-10</y>
      <width>471</width>
      <height>121</height>
     </rect>
@@ -141,17 +131,17 @@
     <string>Python GRAPH</string>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>30</x>
      <y>580</y>
-     <width>451</width>
+     <width>411</width>
      <height>211</height>
     </rect>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout">
-    <item>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
      <layout class="QHBoxLayout" name="horizontalLayout_3">
       <item>
        <widget class="QLabel" name="label">
@@ -265,7 +255,7 @@
       </item>
      </layout>
     </item>
-    <item>
+    <item row="1" column="0">
      <layout class="QHBoxLayout" name="horizontalLayout_4">
       <item>
        <widget class="QLabel" name="label_2">
@@ -342,7 +332,7 @@
       </item>
      </layout>
     </item>
-    <item>
+    <item row="2" column="0">
      <layout class="QHBoxLayout" name="horizontalLayout_5">
       <item>
        <widget class="QLabel" name="label_3">
@@ -411,7 +401,7 @@
       </item>
      </layout>
     </item>
-    <item>
+    <item row="3" column="0">
      <layout class="QHBoxLayout" name="horizontalLayout_2">
       <item>
        <widget class="QLabel" name="label_4">
@@ -443,6 +433,24 @@
        </widget>
       </item>
      </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>551</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="PlotWidget" name="graph" native="true"/>
+    </item>
+    <item>
+     <widget class="QWidget" name="graph_2" native="true"/>
     </item>
    </layout>
   </widget>
