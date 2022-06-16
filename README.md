@@ -1,7 +1,8 @@
 # Vibration amplitude measurement
 > The device is designed to measure the amplitude of vibrations rigid busbar. 
-![#f03c15]For educational purposes only
-
+```diff
+-red For educational purposes only
+```
 ## Table of contents
 * [General info](#general)
 * [Microcontroler (Arduino) and peripherals](#arduino)
@@ -24,7 +25,7 @@ Additionaly application has been created to display the accelerations on the gra
 
 At the end all components were soldered on a breadboard and a device case was designed and printed. 
 
-<img src="./img/dev.jpg" width="200" alt="device"/>
+<img src="./IMG/dev.jpg" width="200" alt="device"/>
 
 <a name="arduino"></a>
 ## Microcontroler (Arduino) and peripherals
