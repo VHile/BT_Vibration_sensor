@@ -67,7 +67,7 @@ With each measurement, the gravitational acceleration vector is first rotated to
 
 Pictures above show plots of acceleration with compensation.
 
-![Compensated acceleration plot](./IMG/screen1.png)
+<img src="./IMG/screen1.png" width="200" alt="Screenshot1"/>
 
 <a name="pyprog"></a>
 ## Python program
@@ -83,6 +83,6 @@ Functional requirements:
 
 Screenshots:
 <p float="left" style="text-align: center;">
-  <img src="./IMG/screen2.png" width="200" alt="Screenshot"/>
-  <img src="./IMG/screen3.png" width="200" alt="Screenshot"/>
+  <img src="./IMG/screen2.png" width="200" alt="Screenshot2"/>
+  <img src="./IMG/screen3.png" width="200" alt="Screenshot3"/>
 </p>
