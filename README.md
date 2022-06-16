@@ -18,7 +18,7 @@
 <a name="general"></a>
 ## General info
 
-Arduino microcontroller was used to build the device. Special attention was given to use of a cheap inertial sensors (they were bought on AliExpress for a few dollars).Vibration visualization is based on the accelerations obtained due to the accelerometer.
+Arduino microcontroller was used to build the device. Special attention was given to use of cheap inertial sensors (they were bought on AliExpress for a few dollars).Vibration visualization is based on the accelerations obtained due to the accelerometer.
 
 Additionaly application has been created to display the accelerations on the graphic. It allows to connect to the device via bluetooth. After collecting measurement data, they will be saved in excel file.
 
@@ -49,7 +49,7 @@ In order to use my program you need to download and include [MPU6050 library](ht
 
 <a name="connecting"></a>
 ### Connecting
-First of all you need to connect all pieces together just like on the picture below if you are using program from my GitHub. The Bluetooth module goes through voltage level translator, because the module works on 3.3V and Arduino on 5V. If you don't have one and don't want to buy it you can also make voltage divider so not to damage the module.
+First of all you need to connect all pieces together just like on the picture below if you use the program from my GitHub. The Bluetooth module goes through voltage level translator, because the module works on 3.3V and Arduino on 5V. If you don't have one and don't want to buy it you can also make voltage divider so not to damage the module.
 
 <img src="./IMG/chem.jpg" width="700" alt="device"/>
 
