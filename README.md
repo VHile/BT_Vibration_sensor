@@ -24,7 +24,7 @@ Additionaly application has been created to display the accelerations on the gra
 
 At the end all components were soldered on a breadboard and a device case was designed and printed. 
 
-![Device](./img/dev.jpg)
+![Device](./IMG/dev.jpg)
 
 <a name="arduino"></a>
 ## Microcontroler (Arduino) and peripherals
