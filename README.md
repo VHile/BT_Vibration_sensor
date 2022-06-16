@@ -84,6 +84,6 @@ Functional requirements:
 Screenshots:
 * Program screenshot
 <img src="./IMG/screen2.PNG" width="400" alt="Screenshot2"/>
+
 * Screenshot of excel file with data
 <img src="./IMG/screen3.PNG" width="300" alt="Screenshot3"/>
-
