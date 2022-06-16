@@ -12,7 +12,7 @@
   + [Arduino program](#aprogram)
   + [Kalman filter](#kalman)
 * [Python program](#pyprog)
-* [Device case](#case)
+* [Testing](#testing)
 
 
 <a name="general"></a>
@@ -51,7 +51,7 @@ In order to use my program you need to download and include [MPU6050 library](ht
 ### Connecting
 First of all you need to connect all pieces together just like on the picture below if you are using program from my GitHub. The Bluetooth module goes through voltage level translator, because the module works on 3.3V and Arduino on 5V. If you don't have one and don't want to buy it you can also make voltage divider so not to damage the module.
 
-![Connection schema 2](./img/schem.jpg)
+<img src="./IMG/chem.jpg" width="700" alt="device"/>
 
 <a name="aprogram"></a>
 ### Arduino program
@@ -67,7 +67,7 @@ With each measurement, the gravitational acceleration vector is first rotated to
 
 Pictures above show plots of acceleration with compensation.
 
-![Compensated acceleration plot](./img/screen1.JPG)
+![Compensated acceleration plot](./IMG/screen1.JPG)
 
 <a name="pyprog"></a>
 ## Python program
@@ -78,12 +78,11 @@ Functional requirements:
 * visualization of information in the application
 * establishing a Bluetooth connection between PC and device 
 
+<a name="testing"></a>
+## Testing
+
 Screenshots:
 <p float="left" style="text-align: center;">
-  <img src="./img/screen2.png" width="200" alt="Screenshot"/>
+  <img src="./img/screen3.jpg" width="200" alt="Screenshot"/>
+  <img src="./img/screen4.jpg" width="200" alt="Screenshot"/>
 </p>
-
-<a name="case"></a>
-## Device case
-
-![Printed case](./img/dev2.jpg)
