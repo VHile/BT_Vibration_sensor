@@ -82,11 +82,8 @@ Functional requirements:
 ## Testing
 
 Screenshots:
-<p float="left" style="text-align: center;">
-  Program screenshot
-  <img src="./IMG/screen2.PNG" width="400" alt="Screenshot2"/>
-</p>
-<p float="left" style="text-align: center;">
-  Screenshot of excel file with data
-  <img src="./IMG/screen3.PNG" width="300" alt="Screenshot3"/>
-</p>
+* Program screenshot
+<img src="./IMG/screen2.PNG" width="400" alt="Screenshot2"/>
+* Screenshot of excel file with data
+<img src="./IMG/screen3.PNG" width="300" alt="Screenshot3"/>
+
