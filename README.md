@@ -83,6 +83,6 @@ Functional requirements:
 
 Screenshots:
 <p float="left" style="text-align: center;">
+  <img src="./img/screen2.jpg" width="200" alt="Screenshot"/>
   <img src="./img/screen3.jpg" width="200" alt="Screenshot"/>
-  <img src="./img/screen4.jpg" width="200" alt="Screenshot"/>
 </p>
