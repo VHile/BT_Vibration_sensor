@@ -1,5 +1,5 @@
-# Vibration amplitude measurement
-> The device is designed to measure the amplitude of vibrations rigid busbar. 
+# Vibration amplitude and frequency measurement
+> The device is designed to measure the natural vibration frequency of a rigid busbar. 
 > 🟥For educational purposes only
 
 ## Table of contents
@@ -73,7 +73,7 @@ Pictures above show plots of acceleration with compensation.
 ## Python program
 
 Functional requirements:
-* processing of data collected from the sensors so as to obtain the value of displacement and speed of the device
+* processing of data collected from the sensors to measure vibration frequency
 * saving a series of measurement data in excel
 * visualization of information in the application
 * establishing a Bluetooth connection between PC and device 
@@ -85,5 +85,11 @@ Screenshots:
 * Program screenshot
 <img src="./IMG/screen2.PNG" width="400" alt="Screenshot2"/>
 
+* Testing a program with a 10 Hz sine wave
+<img src="./IMG/screen2.PNG" width="400" alt="Screenshot3"/>
+
+* Testing a program with a 20 Hz sine wave
+<img src="./IMG/screen2.PNG" width="400" alt="Screenshot4"/>
+
 * Screenshot of excel file with data
-<img src="./IMG/screen3.PNG" width="300" alt="Screenshot3"/>
+<img src="./IMG/screen3.PNG" width="300" alt="Screenshot5"/>
