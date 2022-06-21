@@ -49,7 +49,6 @@ curve2 = ui.graph.plot(pen="g", name="Accel Y")
 curve3 = ui.graph.plot(pen="b", name="Accel Z")
 curve4 = ui.graph.plot()
 
-
 ui.graph_2.addLegend()
 ui.graph_2.showGrid(x=True, y=True, alpha=0.8)
 ui.graph_2.setLabel('left', 'Amplitude (16bit Signed)')
@@ -59,14 +58,15 @@ curve6 = ui.graph_2.plot(pen="g", name="Accel Y")
 curve7 = ui.graph_2.plot(pen="b", name="Accel Z")
 curve8 = ui.graph_2.plot()
 
-#for i in range(len(listX)):
+# for i in range(len(listX)):
 #    listXYZ['X'].append(listX[i])
-#for i in range(len(listY)):
+# for i in range(len(listY)):
 #    listXYZ['Y'].append(listY[i])
-#for i in range(len(listZ)):
+# for i in range(len(listZ)):
 #    listXYZ['Z'].append(listZ[i])
 
-data = [None]*5
+data = [None] * 5
+
 
 def onRead():
     global listX, list_t, t, data, listXYZ
@@ -81,8 +81,9 @@ def onRead():
     except IndentationError:
         print('?')
 
+
 def update():
-    global t, x, listX, listY, listZ,  list_t, flag_StartEXP, data, listXYZ, curve1, curve2, curve3, i, bufferX, bufferY, bufferZ
+    global t, x, listX, listY, listZ, list_t, flag_StartEXP, data, listXYZ, curve1, curve2, curve3, i, bufferX, bufferY, bufferZ
     if flag_StartEXP:
         t += 1
         x += 1
@@ -98,8 +99,8 @@ def update():
         listXYZ['Z'].append(float(data[2]))
         listXYZ['T'].append(float(data[3]))
 
-#        ui.graph.clear()
-#        curve1.setData(list_t, listX)
+        #        ui.graph.clear()
+        #        curve1.setData(list_t, listX)
         curve1.setData(bufferX[0:i])
         curve1.setPos(0, 0)
 
@@ -111,11 +112,13 @@ def update():
         i += 1
         app.processEvents()
 
+
 def StartEXP():
     global flag_StartEXP, flag_is_start
     flag_StartEXP = True
     flag_is_start = True
     print("on")
+
 
 #    serial.write(txs.encode())
 
@@ -140,16 +143,20 @@ def StopEXP():
         listXYZ['Z'].clear()
         listXYZ['T'].clear()
 
-#        ui.graph.clear()
+        #        ui.graph.clear()
         flag_is_start = False
+
+
 #    serial.write(txs.encode())
 
 def onOpen():
-   serial.setPortName(ui.comL.currentText())
-   serial.open(QIODevice.ReadWrite)
+    serial.setPortName(ui.comL.currentText())
+    serial.open(QIODevice.ReadWrite)
+
 
 def onClose():
     serial.close()
+
 
 serial.readyRead.connect(onRead)
 ui.openB.clicked.connect(onOpen)
@@ -161,7 +168,7 @@ ui.offB.clicked.connect(StopEXP)
 timer = QtCore.QTimer()
 timer.timeout.connect(update)
 timer.start(10)
-#timer.setInterval(dt)
+# timer.setInterval(dt)
 
 ui.show()
 app.exec()
