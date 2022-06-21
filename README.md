@@ -86,10 +86,10 @@ Screenshots:
 <img src="./IMG/screen2.PNG" width="400" alt="Screenshot2"/>
 
 * Testing a program with a 10 Hz sine wave
-<img src="./IMG/screen3.PNG" width="400" alt="Screenshot3"/>
+<img src="./IMG/screen3.png" width="400" alt="Screenshot3"/>
 
 * Testing a program with a 20 Hz sine wave
-<img src="./IMG/screen4.PNG" width="400" alt="Screenshot4"/>
+<img src="./IMG/screen4.png" width="400" alt="Screenshot4"/>
 
 * Screenshot of excel file with data
 <img src="./IMG/screen5.PNG" width="300" alt="Screenshot5"/>
